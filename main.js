@@ -47,7 +47,7 @@ document.querySelector('.big-button').onclick = (e) => {
     </span>
     <ul class="card__list">
       <li class="card__item">
-        <img class="card__card" src="./img/1.png" alt="">
+        <img class="card__card"   src="./img/1.webp" alt="">
       </li>
       <li class="card__item">
         <img class="card__card" src="./img/2.png" alt="">
@@ -74,7 +74,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #1</h4>
         <span class="card__option-price">2500 <span class="card__currency">₽</span></span>
@@ -87,7 +87,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #2</h4>
         <span class="card__option-price">3000 <span class="card__currency">₽</span></span>
@@ -99,7 +99,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #3</h4>
         <span class="card__option-price">3500 <span class="card__currency">₽</span></span>
@@ -112,7 +112,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #4</h4>
         <span class="card__option-price">4000 <span class="card__currency">₽</span></span>
@@ -125,7 +125,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #5</h4>
         <span class="card__option-price">4500 <span class="card__currency">₽</span></span>
@@ -138,7 +138,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #6</h4>
         <span class="card__option-price">5000 <span class="card__currency">₽</span></span>
@@ -151,7 +151,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #7</h4>
         <span class="card__option-price">5500 <span class="card__currency">₽</span></span>
@@ -164,7 +164,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #8</h4>
         <span class="card__option-price">6000 <span class="card__currency">₽</span></span>
@@ -177,7 +177,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #9</h4>
         <span class="card__option-price">6500 <span class="card__currency">₽</span></span>
@@ -190,7 +190,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.png" alt="">
+      <img class="card__mini" src="./img/option.webp"alt="">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #10</h4>
         <span class="card__option-price">7000 <span class="card__currency">₽</span></span>

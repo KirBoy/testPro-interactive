@@ -47,15 +47,20 @@ document.querySelector('.big-button').onclick = (e) => {
     </span>
     <ul class="card__list">
       <li class="card__item">
-        <img class="card__card"   src="./img/1.webp" alt="">
+        <img class="card__card"   src="./img/3.webp" alt="какая-то штора">
       </li>
       <li class="card__item">
-        <img class="card__card" src="./img/2.png" alt="">
+        <img class="card__card" src="./img/2.webp" alt="девушка">
       </li>
       <li class="card__item">
-        <img class="card__card" src="./img/3.png" alt="">
+        <img class="card__card" src="./img/1.webp" alt="две девушки">
       </li>
     </ul>
+    <ul class="card__dots">
+    <li class="card__dot active-dot"></li>
+    <li class="card__dot"></li>
+    <li class="card__dot"></li>
+  </ul>
     <span class="card__btn card__btn--forward">
       <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g opacity="0.48">
@@ -74,7 +79,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #1</h4>
         <span class="card__option-price">2500 <span class="card__currency">₽</span></span>
@@ -87,7 +92,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #2</h4>
         <span class="card__option-price">3000 <span class="card__currency">₽</span></span>
@@ -99,7 +104,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #3</h4>
         <span class="card__option-price">3500 <span class="card__currency">₽</span></span>
@@ -112,7 +117,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #4</h4>
         <span class="card__option-price">4000 <span class="card__currency">₽</span></span>
@@ -125,7 +130,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #5</h4>
         <span class="card__option-price">4500 <span class="card__currency">₽</span></span>
@@ -138,7 +143,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #6</h4>
         <span class="card__option-price">5000 <span class="card__currency">₽</span></span>
@@ -151,7 +156,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #7</h4>
         <span class="card__option-price">5500 <span class="card__currency">₽</span></span>
@@ -164,7 +169,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #8</h4>
         <span class="card__option-price">6000 <span class="card__currency">₽</span></span>
@@ -177,7 +182,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #9</h4>
         <span class="card__option-price">6500 <span class="card__currency">₽</span></span>
@@ -190,7 +195,7 @@ document.querySelector('.big-button').onclick = (e) => {
   <label class="card__label">
     <input class="card__checkbox" type="checkbox">
     <div class="card__left">
-      <img class="card__mini" src="./img/option.webp"alt="">
+   <img class="card__mini" src="./img/option.webp" alt="Опция">
       <div class="card__content">
         <h4 class="card__subtitle">Разработка макета #10</h4>
         <span class="card__option-price">7000 <span class="card__currency">₽</span></span>
@@ -255,19 +260,39 @@ function createCounter() {
   }
 }
 
-function back(slider, i) {
+function back(slider, i, dots) {
+
+  for (let dot of  dots[i].children) {
+    dot.classList.remove('active-dot')
+  }
  
   if (counters[i].status() > 0) {
     counters[i].minus()
   }
+  dots[i].children[counters[i].status()+1].classList.add('active-left')
+  dots[i].children[counters[i].status()].classList.add('active-dot')
   slider[i].style.transform = `translateX(-${counters[i].status() * 100}%)`
+
+  
 }
 
-function forward(slider, i) {
-  
+function forward(slider, i, dots) {
+  if(counters[i].status() === 0) {
+    for (let dot of  dots[i].children) {
+      dot.classList.remove('active-left')
+      dot.classList.remove('active-right')
+    }
+  }
+
+  for (let dot of  dots[i].children) {
+    dot.classList.remove('active-dot')
+  }
+ 
   if (counters[i].status() < 2) {
     counters[i].plus()
   }
+  dots[i].children[counters[i].status()-1].classList.add('active-right')
+  dots[i].children[counters[i].status()].classList.add('active-dot')
   slider[i].style.transform = `translateX(-${counters[i].status() * 100}%)`
 }
 
@@ -289,7 +314,7 @@ function color(e, el, i) {
     e.target.classList.add('active')
   }
   result(i)
- 
+
 }
 
 function countPrice(e, i) {
@@ -307,7 +332,7 @@ function countPrice(e, i) {
     delete cards[i].options['inner' + inner]
   }
   result(i)
- 
+
 }
 
 function openModal(e, i) {
@@ -371,7 +396,7 @@ function openModal(e, i) {
     optios.style.display = 'flex'
     for (el of optios.children) {
       el.onclick = (e) => {
-        let i = document.querySelector('.modal').getAttribute('data-number')-1
+        let i = document.querySelector('.modal').getAttribute('data-number') - 1
         let value = e.target.value
         cards[i].day = e.target.innerHTML
         cards[i].total = cards[i].total - cards[i].dayValue + value
@@ -387,7 +412,7 @@ function openModal(e, i) {
 
   let responses = document.querySelector('.modal__responses')
   let answer = document.querySelector('.modal__answer')
-  
+
   answer.onclick = (e) => {
     responses.style.display = 'block'
     for (el of responses.children) {
@@ -409,6 +434,7 @@ function openModal(e, i) {
 
 function liseners() {
   let slider = document.querySelectorAll('.card__list')
+  let dots = document.querySelectorAll('.card__dots')
   document.querySelectorAll('.card__rent').forEach((el, i) => {
     el.onclick = (e) => {
       color.call(null, e, el, i)
@@ -416,11 +442,11 @@ function liseners() {
   })
 
   document.querySelectorAll('.card__btn--back').forEach((el, i) => {
-    el.onclick = back.bind(null, slider, i)
+    el.onclick = back.bind(null, slider, i, dots)
   })
 
   document.querySelectorAll('.card__btn--forward').forEach((el, i) => {
-    el.onclick = forward.bind(null, slider, i)
+    el.onclick = forward.bind(null, slider, i, dots)
   })
 
   document.querySelectorAll('.card__options').forEach((el, i) => {
